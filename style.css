@@ -1,0 +1,60 @@
+body {
+  font-family: 'Times New Roman', Times, serif;
+  background-image: url('https://thumbs.dreamstime.com/z/salad-tomatoes-greens-dressing-oil-feta-cheese-blue-plate-white-wooden-background-top-view-banner-website-52717635.jpg?ct=jpeg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 90%;
+  max-width: 700px;
+  margin: 50px auto;
+  text-align: center;
+}
+
+h1 {
+  color: #2b7a78;
+}
+p{
+  font-size: 20px;
+}
+.input-section {
+  margin: 20px 0;
+}
+
+input {
+  padding: 10px;
+  width: 70%;
+  font-size: 16px;
+}
+
+button {
+  padding: 10px 15px;
+  font-size: 16px;
+  background: #2b7a78;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+button:hover {
+  background: #195f5b;
+}
+
+.results {
+  margin-top: 30px;
+}
+
+.recipe-card {
+  background: white;
+  padding: 15px;
+  margin: 10px 0;
+  border-radius: 6px;
+  box-shadow: 0px 2px 6px rgba(0,0,0,0.1);
+  text-align: left;
+}
